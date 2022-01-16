@@ -38,7 +38,7 @@ export class Gateway extends EventEmitter {
 	}
 
 	public setClientName(clientName: string) {
-		this.headers['Client-name'] ??= clientName;
+		this.headers['Client-Name'] ??= clientName;
 		return this;
 	}
 
