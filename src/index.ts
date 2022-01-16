@@ -1,3 +1,1 @@
-export const main = () => 'Kirishima ship ready to serve !';
-
-export default main;
+export * from './Structures/Gateway';
