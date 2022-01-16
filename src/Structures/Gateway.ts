@@ -3,16 +3,15 @@ import EventEmitter from 'node:events';
 import { WebSocket } from 'ws';
 
 export interface Gateway {
-    on(event: "message", listener: (gateway: Gateway, raw: string) => void): this;
-    once(event: "message", listener: (gateway: Gateway, raw: string) => void): this;
-    on(event: "open", listener: (gateway: Gateway) => void): this;
-    once(event: "open", listener: (gateway: Gateway) => void): this;
-    on(event: "close", listener: (gateway: Gateway, code: number) => void): this;
-    once(event: "close", listener: (gateway: Gateway, code: number) => void): this;
-    on(event: "error", listener: (gateway: Gateway, error: Error) => void): this;
-    once(event: "error", listener: (gateway: Gateway, error: Error) => void): this;
+	on(event: 'message', listener: (gateway: Gateway, raw: string) => void): this;
+	once(event: 'message', listener: (gateway: Gateway, raw: string) => void): this;
+	on(event: 'open', listener: (gateway: Gateway) => void): this;
+	once(event: 'open', listener: (gateway: Gateway) => void): this;
+	on(event: 'close', listener: (gateway: Gateway, code: number) => void): this;
+	once(event: 'close', listener: (gateway: Gateway, code: number) => void): this;
+	on(event: 'error', listener: (gateway: Gateway, error: Error) => void): this;
+	once(event: 'error', listener: (gateway: Gateway, error: Error) => void): this;
 }
-
 
 export class Gateway extends EventEmitter {
 	public connection: WebSocket | undefined;
