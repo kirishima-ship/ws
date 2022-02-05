@@ -36,5 +36,5 @@ src/
 .eslintrc
 .swc
 .gitattributes
-tsup.config.ts
+build.config.ts
 tsconfig.eslint.json
