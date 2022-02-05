@@ -34,7 +34,7 @@
     "@sapphire/async-queue": "1.1.9",
     "@sapphire/eslint-config": "4.0.10",
     "@sapphire/prettier-config": "1.2.8",
-    "@sapphire/ts-config": "3.1.7",
+    "@sapphire/ts-config": "3.3.0",
     "@swc/core": "1.2.136",
     "@types/node": "17.0.8",
     "@types/ws": "8.2.2",
