@@ -13,6 +13,7 @@ npm install @kirishima/ws ws @sapphire/async-queue
 
 # Features
 - Written in TypeScript
+- Support ESM & CommonJS
 
 # Example 
 ```ts
