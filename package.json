@@ -31,7 +31,7 @@
     "format": "prettier --write {src,tests}/**/*.ts"
   },
   "devDependencies": {
-    "@sapphire/async-queue": "1.1.9",
+    "@sapphire/async-queue": "1.2.0",
     "@sapphire/eslint-config": "4.2.0",
     "@sapphire/prettier-config": "1.2.8",
     "@sapphire/ts-config": "3.1.7",
