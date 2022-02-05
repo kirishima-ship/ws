@@ -34,4 +34,7 @@ wiki/
 tsconfig.json
 src/
 .eslintrc
+.swc
+.gitattributes
+tsup.config.ts
 tsconfig.eslint.json
