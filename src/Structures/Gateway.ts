@@ -42,6 +42,11 @@ export class Gateway extends EventEmitter {
 		return this;
 	}
 
+	public setResumeKey(key: string) {
+		this.headers['Resume-Key'] ??= key;
+		return this;
+	}
+
 	public async connect(): Promise<this> {
 		return new Promise((resolve) => {
 			this.connection = new WebSocket(this.url, { headers: this.headers });
